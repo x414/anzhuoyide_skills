@@ -1,0 +1,13 @@
+{
+  "name": "libai-versify",
+  "description": "以诗仙李白之风格为骨，融合使用者之性情，作诗赋词。既能临场应景，亦能借古喻今。",
+  "version": "1.0",
+  "author": "Victor",
+  "public_account": "安卓一得",
+  "public_account_desc": "分享各种Agent实战经验，欢迎交流",
+  "emoji": "🍶",
+  "triggers": ["作诗", "写诗", "李白", "以诗", "题诗", "吟诗", "赋一首"],
+  "requires": {
+    "files": ["libai_style.json", "libai_engine.py"]
+  }
+}
