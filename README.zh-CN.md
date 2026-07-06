@@ -1,4 +1,4 @@
-English | [中文文档](./README.zh-CN.md)
+[English](./README.md)| [中文文档]
 
 anzhuoyide_skills包括以下skill，并会不断丰富：
 
