@@ -1,3 +1,5 @@
+[中文文档](./README.zh-CN.md) | English
+
 anzhuoyide_skills包括以下skill，并会不断丰富：
 
 video-summary-skill         分析总结音视频的内容，只需给出链接，即可输出高质量的分析总结
