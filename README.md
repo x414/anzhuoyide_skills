@@ -1,11 +1,11 @@
 [中文文档](./README.zh-CN.md) | English
 
-anzhuoyide_skills包括以下skill，并会不断丰富：
+anzhuoyide_skills include the following skills(will be More)：
 
-video-summary-skill         分析总结音视频的内容，只需给出链接，即可输出高质量的分析总结
+video-summary-skill         analyse the video or audio, only need to provide the link，it will show the analyse report
 
-libai-versify               以李白的风格、结合上下文根据需求作诗
+libai-versify               it can versify according to your context and like libai who is the most powerful Chinese poet、结合上下文根据需求作诗
 
-更多详细介绍：https://mp.weixin.qq.com/s/nw-O3A5AMiyGbYGpAdSXPg
+more detail info：https://mp.weixin.qq.com/s/nw-O3A5AMiyGbYGpAdSXPg
 
 作者公众号：安卓一得，欢迎交流~
