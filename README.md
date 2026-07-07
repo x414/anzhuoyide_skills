@@ -1,6 +1,6 @@
 [中文文档](./README.zh-CN.md) | English
 
-anzhuoyide_skills include the following skills(will be More)： 
+anzhuoyide_skills include the following skills(will be more powerful and More. applicable to agents such as Claude Code, Codex, OpenClaw, Hermes and so on)： 
 
 First, two little cakes:
 
