@@ -12,4 +12,4 @@ more detail info：https://mp.weixin.qq.com/s/nw-O3A5AMiyGbYGpAdSXPg
 
 Second, 
 
-作者公众号：安卓一得，欢迎交流~
+作者公众号：安卓一得，分享各种Agent实战经验，欢迎交流~
