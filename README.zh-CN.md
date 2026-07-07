@@ -1,6 +1,6 @@
 [English](./README.md)| [中文文档]
 
-anzhuoyide_skills包括以下skill，并会不断丰富和完善：
+anzhuoyide_skills包括以下skill，适用于主流Agent（Claude Code, Codex, OpenClaw, Hermes等），并会不断丰富和完善：
 
 首先，两个开胃小菜：
 
