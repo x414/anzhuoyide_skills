@@ -1,0 +1,12 @@
+# Feishu Project Chat Analyzer - Python Dependencies
+# Install: pip install -r requirements.txt
+
+# Core dependencies
+playwright>=1.40.0
+
+# Optional but recommended
+pyyaml>=6.0        # For config.yaml support
+playwright-stealth  # For stealth mode (optional)
+
+# Install browser binaries after pip install:
+#   python3 -m playwright install chromium

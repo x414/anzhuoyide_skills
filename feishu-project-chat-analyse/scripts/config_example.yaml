@@ -1,0 +1,56 @@
+# Feishu Project Chat Analyzer 配置文件示例
+# 复制此文件为 config.yaml 并修改为自己的配置
+
+feishu:
+  # 租户域名，留空会自动从 cookies 检测
+  tenant: ""
+  messenger_url: ""
+  cookies_path: "./feishu_analysis/data/feishu_cookies.json"
+  auto_detect_tenant: true
+
+browser:
+  headless: false
+  viewport_width: 1920
+  viewport_height: 1080
+  args:
+    - "--no-sandbox"
+  auto_detect_chrome: true
+  # chrome_path: "/path/to/chrome"  # 仅在需要指定路径时设置
+
+display:
+  auto_set: true
+  display: ":0"
+  xauthority_paths:
+    - "~/.Xauthority"
+
+extraction:
+  scroll_duration: 1800        # 总滚动时长（秒）
+  scroll_step_min: 200         # 最小滚动步长（px）
+  scroll_step_max: 500         # 最大滚动步长（px）
+  pause_min: 1.5               # 最小停顿（秒）
+  pause_max: 3.0               # 最大停顿（秒）
+  max_rounds: 200              # 最大滚动轮次
+  no_growth_threshold: 10      # 连续无新增多少轮后停止
+  accumulate_mode: true        # 累积捕获模式
+  output_format: "txt"         # txt | json | md
+
+incremental:
+  enabled: true
+  state_file: "./feishu_analysis/data/extraction_state.json"
+  skip_threshold_chars: 100    # 重复多少字符视为已提取
+
+batch:
+  max_workers: 1               # 并发数（建议1-2）
+  retry_count: 3               # 失败重试次数
+  retry_delay: 5               # 重试间隔（秒）
+  report_file: "./feishu_analysis/reports/batch_extraction_report.json"
+
+output:
+  dir: "./feishu_analysis/data"
+  reports_dir: "./feishu_analysis/reports"
+  logs_dir: "./feishu_analysis/logs"
+
+logging:
+  level: "INFO"                # DEBUG | INFO | WARNING | ERROR
+  file: "./feishu_analysis/logs/feishu_skill.log"
+  format: "%(asctime)s [%(levelname)s] %(message)s"
