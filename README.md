@@ -2,14 +2,26 @@
 
 **anzhuoyide_skills** include the following skills(will be more powerful and More. applicable to agents such as Claude Code, Codex, OpenClaw, Hermes and so on)： 
 
-**First, two little cakes:**
+**1. two little cakes:**
 
-**video-summary-skill**---it can analyse the video or audio, only need to provide the link，it will show the analyse report
+**1.1 video-summary-skill**  ---it can analyse the video or audio, only need to provide the link，it will show the analyse report
 
-**libai-versify**---it can versify according to your context and like libai who is the most powerful Chinese poet
+**1.2 libai-versify**  ---it can versify according to your context and like libai who is the most powerful Chinese poet
 
-more detail info：https://mp.weixin.qq.com/s/nw-O3A5AMiyGbYGpAdSXPg
+**more detail info**：https://mp.weixin.qq.com/s/nw-O3A5AMiyGbYGpAdSXPg
 
-**Second, to be done** 
+**2. Context Auto-Extraction Skill Trained on 1 Billion Iterated Tokens**
+
+*Compatible with all project types and requires no special permissions. It activates automatically once you log into the web version of Feishu.*
+
+**2.1 feishu-project-doc-analyse**  ---Automatically locates Feishu documents associated with a project, parses their contents, and generates high-quality project summaries. This enables the Agent to fully grasp project context via Feishu documents.
+Usage: "Run feishu-project-doc-analyse to analyze the XXX project"
+
+**2.2 feishu-project-chat-analyse**  ---Automatically retrieves Feishu group chats linked to a project, analyzes conversation records, and compiles comprehensive project reports. This allows the Agent to obtain full project context from group chat histories.
+Usage: "Run feishu-project-chat-analyse to analyze the XXX project"
+
+**Postscript**：While both skills are configured by default to pull all relevant content, the large language model may exhibit passivity during actual use. If the execution output prompts that "only partial documents or chat records were extracted", simply issue an additional command to continue extracting the remaining content.
+
+**more detail info**：A dedicated official WeChat public account article will be published at a later date (to be released).
 
 **作者公众号**：安卓一得，分享各种Agent实战经验，欢迎交流~
